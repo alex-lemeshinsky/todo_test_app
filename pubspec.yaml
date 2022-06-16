@@ -1,0 +1,43 @@
+name: todo_test_app
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.1 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  http: 
+  provider:
+  flutter_datetime_picker:
+  connectivity_plus:
+  flutter_staggered_animations:
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_native_splash:
+  flutter_launcher_icons:
+  flutter_lints: ^2.0.0
+
+flutter_native_splash:
+  color: "#ffffff"
+  image: images/todo_icon.png
+  android: true
+
+flutter_icons:
+  image_path: "images/todo_icon.png"
+  android: true
+
+flutter:
+
+  uses-material-design: true
+
